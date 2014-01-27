@@ -12,11 +12,6 @@ import glob
 from mando import command, main
 
 
-ERROR_MISSING_COMMAND = 1
-ERROR_UNKNOWN_COMMAND = 2
-ERROR_MISSING_PARAM = 3
-
-
 IS_WINDOWS = platform.system() == 'Windows'
 
 
